@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <meta charset="utf-8">
+    <title>mADcrowd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+                                   
+    <!-- Custom Style -->
+<style>
+ 	/*CUSTOMIZE THE CAROUSEL*/
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+	
+	    /* Featurettes
+    ------------------------- */
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+	/* RESPONSIVE CSS*/
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+</style>
+</head>
+
+<body>
+
+	<!-- BEGIN Navbar -->
+   
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html">mADcrowd</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="">
+                <a href="./about.html">About Us</a>
+              </li>
+              <li class="">
+                <a href="./howitworks.html">How It Works</a>
+              </li>
+              <li class="">
+                <a href="./gallery.html">Gallery</a>
+              </li>
+              <li class="">
+                <a href="./publishers.html">Publishers</a>
+              </li>
+              <li class="">
+                <a href="./users.html">Users</a>
+              </li>
+              <li class="">
+                <a href="./investors.html">Investors</a>
+              </li>
+              <li class="">
+               <a href="./login.html">Login</a>
+               </li>
+              <li class="">
+              	<a href="./signup.html">Sign Up</a>
+               </li>
+             </ul>
+           
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    
+	<!--END Navbar-->
+    
+    <!--BEGIN Jumbotron-->
+
+ 	<!--BEGIN Carousel-->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/img/cover.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>mADcrowd</h1>
+              <p class="lead">Create. Share. Publish.</p>
+              <a class="btn btn-large btn-primary" href="signup.html">Sign up today</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/cover.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Crowdsourced Advertising</h1>
+              <p class="lead">mADcrowd lets you share your ideas with the world.</p>
+              <a class="btn btn-large btn-primary" href="about.html">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/cover.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>MADison Avenue at your fingure tips.</h1>
+              <p class="lead">Share your idea for great ads.</p>
+              <a class="btn btn-large btn-primary" href="gallery.html">Browse gallery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <!--END Carousel -->
+	
+    <!--BEGIN Social Media-->
+<div class="bs-docs-social">
+  <div class="container">
+    <ul class="bs-docs-social-buttons">
+      <li class="follow-btn">
+        <a href="https://twitter.com/mADcrowds" class="twitter-follow-button" data-show-count="false">Follow @mADcrowds</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </li>
+      <li class="tweet-btn">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://projectmadcrowd.com/" data-count="horizontal" data-via="madcrowds" data-related="mdo:Making ads cool.">Tweet</a>
+      </li>
+    </ul>
+  </div>
+</div>
+    <!--END Social Media-->
+    
+     <!-- BEGIN Footer -->
+  
+     <footer>
+        <p>&copy; 2013 mADcrowd inc. &middot; <a href="#">Privacy</a> &middot; <a href="terms.html">Terms</a></p>
+      </footer>
+      
+     <!-- END Footer -->
+</body>
+</html>
